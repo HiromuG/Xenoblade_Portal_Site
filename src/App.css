@@ -1,0 +1,106 @@
+@import url(//db.onlinewebfonts.com/c/021120d820562daab169a2337ab13040?family=Helvetica+Neue);
+@font-face {font-family: "Helvetica Neue"; src: url("//db.onlinewebfonts.com/t/021120d820562daab169a2337ab13040.eot"); src: url("//db.onlinewebfonts.com/t/021120d820562daab169a2337ab13040.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/021120d820562daab169a2337ab13040.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/021120d820562daab169a2337ab13040.woff") format("woff"), url("//db.onlinewebfonts.com/t/021120d820562daab169a2337ab13040.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/021120d820562daab169a2337ab13040.svg#Helvetica Neue") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Nunito&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  padding: 0em;
+  background: #000;
+  background-image: url('./image/stars.png');
+  /* background-image: linear-gradient(-45deg,rgb(0, 90, 170),rgb(0, 10, 30),rgb(0, 90, 170)); */
+  height: 100vh;
+  overflow-x: hidden;
+  animation: bgAnimation 60s linear infinite;
+}
+  @keyframes bgAnimation {
+    to{background-position: 100%;}
+  }
+.title{
+  position: relative;
+  display: inline-flex;
+  font-family: 'helvetica Neue';
+  font-size: 4em;
+  padding: 1rem 2rem;
+  color: transparent;
+  overflow: hidden;
+  background: linear-gradient(to right,white 50%,red 50%);
+  background-size: 200%;
+  background-clip: text;
+  transition: 2s;
+}
+  .title:hover{
+    background-clip: text;
+    background-position: -100%;
+  }
+.subTitle{
+  color: #fff; 
+  font-family: 'Noto Sans JP', sans-serif;
+  cursor: default;
+  padding: 1em
+}
+  .subTitle span{
+    font-family: 'helvetica Neue';
+    padding: 0 0.1em;
+    color: transparent;
+    background: linear-gradient(to right,white 50%,red 50%);
+    background-size: 200%;
+    background-clip: text;
+    transition: 1s;
+  }
+    .subTitle:hover span{
+      background-clip: text;
+      background-position: -100%;
+    }
+/* /////////////Logos////////////// */
+.logoImgBox{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.xb1and2LogoBox{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+@media (max-width: 1141px){
+  .title{
+    background: transparent;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 0 0 0.5em gray;
+  }
+    .title:hover{
+      color: red;
+      background-position: 0;
+    }
+}
+
+@media (max-width: 999px) {
+  .subTitle{
+    margin-bottom: 1em;
+  }
+}
+
+@media (max-width: 851px) {
+  .xb1and2LogoBox{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 391px) {
+  .App{
+    padding: 1em
+  }
+  .title{
+    padding: 1em;
+    font-size: 3em;
+  }
+  .xb1and2LogoBox{
+    flex-direction: column;
+    align-items: center;
+  }
+}
