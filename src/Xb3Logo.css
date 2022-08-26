@@ -64,10 +64,11 @@
 /* ////////////Close WallPaper//////////// */
 .closeBtn{
   position: fixed;
-  top: 0;
-  right: 0;
+  top: 5vh;
+  right: 5vh;
   width: 4em;
   height: 4em;
+  border-radius: 2vh;
   background: red;
   cursor: pointer;
   z-index: 99;
