@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Xenoblade_Portal_Site/static/css/main.5c7df09f.css",
-    "main.js": "/Xenoblade_Portal_Site/static/js/main.bc684279.js",
+    "main.js": "/Xenoblade_Portal_Site/static/js/main.2938603b.js",
     "static/media/xb3wallpaper.png": "/Xenoblade_Portal_Site/static/media/xb3wallpaper.0f7d4145e1af71ca89a2.png",
     "static/media/1.mp3": "/Xenoblade_Portal_Site/static/media/1.190411d1d7be59071611.mp3",
     "static/media/2.mp3": "/Xenoblade_Portal_Site/static/media/2.aedad36f3aa2e7290f13.mp3",
@@ -14,10 +14,10 @@
     "static/media/Xenoblade2-logo.webp": "/Xenoblade_Portal_Site/static/media/Xenoblade2-logo.b8d8e9f2f80420bdf74b.webp",
     "index.html": "/Xenoblade_Portal_Site/index.html",
     "main.5c7df09f.css.map": "/Xenoblade_Portal_Site/static/css/main.5c7df09f.css.map",
-    "main.bc684279.js.map": "/Xenoblade_Portal_Site/static/js/main.bc684279.js.map"
+    "main.2938603b.js.map": "/Xenoblade_Portal_Site/static/js/main.2938603b.js.map"
   },
   "entrypoints": [
     "static/css/main.5c7df09f.css",
-    "static/js/main.bc684279.js"
+    "static/js/main.2938603b.js"
   ]
 }
