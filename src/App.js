@@ -8,7 +8,6 @@ import {Link} from 'react-router-dom'
 function App() {
     return (
     <div className="App">
-      <link href="https://db.onlinewebfonts.com/c/021120d820562daab169a2337ab13040?family=Helvetica+Neue" rel="stylesheet" type="text/css"/>
       <Link to='/' style={{textDecoration:'none'}}><h1 className='title'>Xenoblade Unofficial Portal Site</h1></Link>
       <h2 className='subTitle'>Nintendo Switchで遊べる「<span>Xenoblade</span>」シリーズ</h2>
       <MusicPlayer />
