@@ -235,8 +235,11 @@
 }
 
 @media (max-width: 671px) {
+  .xb3WallPaperFadeIn{
+    width: 90%;
+  }
   .xb3Link {
-    bottom: 22.5%;
+    bottom: 20%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -259,6 +262,9 @@
   }
   .xb3WallBoxActive{
     width: 120%;
+  }
+  .xb3WallPaperFadeIn{
+    width: 80%;
   }
   .closeBtn{
     top: 30%;

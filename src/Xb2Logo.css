@@ -192,8 +192,11 @@
 }
   
 @media (max-width: 671px) {
+    .xb2WallPaperFadeIn{
+        width: 90%;
+    }
     .xb2Link {
-        bottom: 22.5% !important;
+        bottom: 20% !important;
     }
 }
 
@@ -217,6 +220,9 @@
     }
     .xb2WallBoxActive{
         width: 120%;
+    }
+    .xb2WallPaperFadeIn{
+        width: 80%;
     }
     .closeBtn{
         top: 30%;

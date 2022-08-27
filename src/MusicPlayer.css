@@ -121,6 +121,9 @@
 .musicName{
     position: relative;
 }
+.musicIndex{
+    color: red;
+}
 .musicPrev,
 .musicNext{
     font-weight: 900;
@@ -142,13 +145,13 @@
 
 @media (max-width: 1131px) {
     .musicPlayer{
-        top: 20%;
+        top: 22.5%;
     }
 }
 
 @media (max-width: 941px) {
     .musicPlayer{
-        top: 35%;
+        top: 25%;
     }
 }
 
@@ -174,7 +177,7 @@
     .line{
         display: none;
     }
-    .musicList{
+    .musicName{
         display: none;
     }
 }

@@ -150,8 +150,11 @@
 }
     
 @media (max-width: 671px) {
+    .xb1WallPaperFadeIn{
+        width: 90%;
+    }
     .xb1Link {
-        bottom: 22.5%;
+        bottom: 20%;
         left: 50%;
         transform: translateX(-50%) skew(-15deg);
     }
@@ -175,6 +178,9 @@
     }
     .xb1WallBoxActive{
         width: 120%;
+    }
+    .xb1WallPaperFadeIn{
+        width: 80%;
     }
     .closeBtn{
         top: 30%;
