@@ -50,7 +50,7 @@ function MusicPlayer() {
     audio.current.volume = 0.9;
     audio.current.play();
     setActive();
-    console.log(audio.current);
+    // console.log(audio.current);
   }
   const stopMusic = ()=>{
     audio.current.pause();
@@ -77,7 +77,7 @@ function MusicPlayer() {
           <span className={musicOff} onClick={closeMusicList}>OFF</span>
           <div className={musicList}>
             <span className='musicPrev' onClick={handleClickPrev}>&lt;&lt;</span>
-            <span className='musicIndex'>{trackIndex+1}：</span>
+            <span className='musicIndex'>{trackIndex+1}</span>
             <span className='musicName'>{musicTracks[trackIndex].name}</span>
             <span className='musicNext' onClick={handleClickNext}>&gt;&gt;</span>
           </div>

@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom'
 function App() {
     return (
     <div className="App">
-      <Link to='/' style={{textDecoration:'none'}}><h1 className='title'>Xenoblade Unofficial Portal Site</h1></Link>
+      <Link to='/' style={{textDecoration:'none'}}><h1 className='title'>Xenoblade Portal Site</h1></Link>
       <h2 className='subTitle'>Nintendo Switchで遊べる「<span>Xenoblade</span>」シリーズ</h2>
       <MusicPlayer />
       <div className='logoImgBox'>
