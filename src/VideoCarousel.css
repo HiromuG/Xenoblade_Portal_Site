@@ -1,0 +1,78 @@
+.videoCarousel{
+    position: relative;
+    width: 100% ;
+    padding: 2em;
+}
+.carousel{
+    position: relative;
+    width: 100vh;
+    margin: auto;
+}
+.videoCarouselTitle{
+    color: #fff;
+    padding-bottom: -10px;
+    font-family: 'Helvetica Neue';
+    letter-spacing: 5px;
+    font-size: 3em;
+    cursor: default;
+    animation: videoCarouselTitleAnimation 2s linear infinite;
+}
+    @keyframes videoCarouselTitleAnimation {
+        50%{text-shadow: 0 0 30px red}
+    }
+.carousel-control-prev
+{
+    position: absolute;
+    left: -10vh !important;
+}
+.carousel-control-next
+{
+    position: absolute;
+    right: -10vh !important;
+}
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon{
+    opacity: 0.85;
+    padding: 1.5em;
+    transition: 0.5s;
+}
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover{
+        opacity: 1;
+        filter: drop-shadow(0 0 10px red);
+    }
+.carousel-indicators button{
+    margin-top: -40px !important;
+    height: 7.5px !important;
+}
+.carouselTitle{
+    padding-top: 1em;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.25em;
+}
+
+@media (max-width: 821px) {
+    .videoCarousel{
+        width: 100%;
+    }
+    .carousel{
+        width: 100vh;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+        display: none !important;
+    }
+    .carousel .carousel-control-prev-icon,
+    .carousel .carousel-control-next-icon{
+        opacity: 1;
+    }
+    .carousel-indicators button{
+        width: 30% !important;
+    }
+}
+@media (max-width: 741px) {
+    .carousel{
+        width: 100% !important;
+    }
+}
