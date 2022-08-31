@@ -10,7 +10,8 @@ function App() {
     return (
     <div className="App">
       <Link to='/' style={{textDecoration:'none'}}><h1 className='title'>Xenoblade Portal Site</h1></Link>
-      <h2 className='subTitle'>Nintendo Switchで遊べる「<span>Xenoblade</span>」シリーズ</h2>
+      <h2 className='subTitleEx'>Nintendo Switchで遊べる</h2>
+      <h2 className='subTitle'>「<span>Xenoblade</span>」シリーズ</h2>
       <MusicPlayer />
       <div className='logoImgBox'>
         <Xb3Logo />
