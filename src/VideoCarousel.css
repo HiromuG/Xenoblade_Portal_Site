@@ -12,13 +12,12 @@
     color: #fff;
     padding-bottom: -10px;
     font-family: 'Helvetica Neue';
-    letter-spacing: 5px;
     font-size: 3em;
     cursor: default;
     animation: videoCarouselTitleAnimation 2s linear infinite;
 }
     @keyframes videoCarouselTitleAnimation {
-        50%{text-shadow: 0 0 30px red}
+        50%{text-shadow: 0 0 30px red;color:pink}
     }
 .carousel-control-prev
 {

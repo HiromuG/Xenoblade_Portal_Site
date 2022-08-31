@@ -31,7 +31,8 @@
   position: relative;
   display: inline-flex;
   font-family: 'Helvetica Neue';
-  font-size: 4em;
+  letter-spacing: -0.5rem;
+  font-size: 5.5em;
   padding: 1rem;
   color: transparent;
   overflow: hidden;
@@ -44,11 +45,17 @@
     background-clip: text;
     background-position: -100%;
   }
-.subTitle{
+.subTitleEx{
   color: #fff; 
   font-family: 'Noto Sans JP', sans-serif;
   cursor: default;
-  padding: 1em
+}
+.subTitle{
+  display: inline-flex;
+  color: #fff; 
+  font-family: 'Noto Sans JP', sans-serif;
+  cursor: default;
+  padding: -1em auto 1em
 }
   .subTitle span{
     font-family: 'Helvetica Neue';
@@ -72,7 +79,7 @@
         text-shadow: 0 0 1em red;
       }
       .subTitle:hover.subTitle span{
-        animation: subTitleSpanAnimation 0.5s linear;
+        animation: subTitleSpanAnimation 1s linear;
       }
         @keyframes subTitleSpanAnimation {
           to{
@@ -111,6 +118,7 @@
 
 @media (max-width: 801px) {
   .title{
+    letter-spacing: 0;
     background: transparent;
     -webkit-text-stroke: 1px #fff;
     text-shadow: 0 0 0.5em gray;
@@ -119,12 +127,6 @@
       color: red;
       background-position: 0;
     }
-}
-
-@media (max-width: 721px) {
-  .subTitle{
-    padding: 0.5em 3em 
-  }
 }
 
 @media (max-width: 531px) {
