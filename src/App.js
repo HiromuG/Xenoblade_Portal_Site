@@ -4,6 +4,7 @@ import Xb2Logo from './Xb2Logo';
 import Xb3Logo from './Xb3Logo';
 import MusicPlayer from './MusicPlayer';
 import {Link} from 'react-router-dom'
+import VideoCarousel from './VideoCarousel';
 
 function App() {
     return (
@@ -18,6 +19,8 @@ function App() {
           <Xb1Logo />
         </div>
       </div>
+      <p className='hr'></p>
+      <VideoCarousel />
     </div>
   );
 }
