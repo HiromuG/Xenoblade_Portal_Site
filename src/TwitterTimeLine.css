@@ -1,0 +1,12 @@
+.thetwittertimeline{
+    width: 40%;
+    float: left;
+    padding: 2.5% 0 0 15%;
+  }
+
+  @media (max-width:1350px) {
+    .thetwittertimeline{
+        display: none;
+    }
+  }
+  
